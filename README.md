@@ -58,56 +58,51 @@ on them.
 10. The event is said to be open if schedule is true, and closed if false.
 11. By default all attractions are taken to be closed, the admin can schedule an event and
 change the status of the attraction to open.
-12.Attractions can be opened by admin
-13. While modification of a deal, if it is not yet present, it is created by the admin
-14.Open events are considered as attractions
+12.Attractions can be opened by admin.
+13. While modification of a deal, if it is not yet present, it is created by the admin.
+14.Open events are considered as attractions.
 15. For logical considerations, it is assumed that the visitor balance is minimum 300
 16. While scheduling event, I am displaying the different attributes of one attraction, ignore if
 difficulty in interpreting
-17.Animal type can’t be modified once declared
-18.Status entered while scheduling of an event can be open/ closed
+17.Animal type can’t be modified once declared.
+18.Status entered while scheduling of an event can be open/ closed.
 19.While modification of special deal if there is no deal set corresponding to the no of tickets
-then it is added
-20.Admin can’t remove an animal if the total no of animals are less than 6
-21.In modify discount method, only the discount percentage can be updated
-22.If none of the attractions have been visited currently, and if the admin tries to print the most
-popular attraction in the visitor stats, the output will be “all equal currently” which is the value
-that must be present i.e 0 for all
-23.One email ID is assumed to be present for a single visitor
+then it is added.
+20.Admin can’t remove an animal if the total no of animals are less than 6.
+21.In modify discount method, only the discount percentage can be updated.
+22.If none of the attractions have been visited currently, and if the admin tries to print the most popular attraction in the visitor stats, the output will be “all equal currently” which is the value that must be present i.e 0 for all.
+23.`One email ID` is assumed to be present for a single visitor
 24.Important - - !!
 It is assumed that after displaying the entire menu, the user enters the correct input ( i.e. 1 or 2 )
 and not some arbitrary value such as string as input.
 ______________________________________________________
-Assumptions for the visitor part:
+# Assumptions for the visitor part:
 1.If the visitor doesn’t have membership, it would take him/ her to the visitor menu again where
 the user can buy membership .
 2. The user can only view the animals and attractions if they have not purchased the
 membership, they also cannot purchase any tickets.
 3. If the member has purchased the basic membership, they cannot purchase it again, if they
 have purchased the premium membership they cannot purchase both the memberships again.
-4. An option to apply discount coupons has also been provided, the user has to answer in
+4. An option to apply discount coupons has also been provided, the user has to answer in.
 Yes/No if they have to use discounts, they have to enter the ID of the discount code displayed
 above.
-5. The users have to first enter the ID of the animal only then they will be either allowed to feed
-or read about the animal.
+5. The users have to first enter the ID of the animal only then they will be either allowed to feed or read about the animal.
 6. Premium members don’t have to buy tickets.
 7. Basic members can choose if they want to use some special deal, if they want to, they enter
 the number of attractions.
 8. Similarly for discounts, however every time they will be allowed to purchase 1 ticket only, if
 they decide to use the discounts, their age will be checked with the age given in the discount.
-9. When the user decides to visit the attractions they will be shown the attractions for which they
-have purchased the tickets, they will have to enter the ID of that attractions, the corresponding
-descriptions of the attractions will be given and the ticket will be removed from the user.
+9. When the user decides to visit the attractions they will be shown the attractions for which they have purchased the tickets, they will have to enter the ID of that attractions, the corresponding descriptions of the attractions will be given and the ticket will be removed from the user.
 10.In the given assignment instructions, there was no option to renew the balance of the user
 hence no provision for that has been made.
-11.Visitor can visit the animals of the zoo without a ticket
-12.Attractions can be visited only after buying a membership
+11.Visitor can visit the animals of the zoo without a ticket.
+12.Attractions can be visited only after buying a membership.
 13.Visitors must register before purchasing memberships or tickets.
 14.Discounts can be modified by administrators.
 15.If the visitor is buying the membership, it is assumed that the visitor would enter the correct
 discount coupon code, another method for eligibility of coupon code has been made, but not
-implement for “buy membership option”
-16.If a visitor doesn’t have tickets he/she can’t visit the attractions
+implement for “buy membership option”.
+16.If a visitor doesn’t have tickets he/she can’t visit the attractions.
 17.Important - - !!
 It is assumed that after displaying the entire menu, the user enters the correct input ( i.e. 1 or 2
 or 3 ) and not some arbitrary value such as string as input
