@@ -10,7 +10,7 @@ ______________________________________________________________________
 The project consists of the following key classes and interfaces:
 1. `Admin` - The `Admin` class manages administrative functions such as adding,
 modifying, and removing zoo attractions, setting up visitor discounts, and managing special
-deal
+deal.
 2. `Visitor` - The `Visitor` class represents a visitor to the zoo and stores information about them,
 including their name, age, phone number, balance, email, and password.
 3. `Attractions` - The `Attractions` class is part of the Zoo's structure, storing information about
